@@ -20,7 +20,7 @@ class AboutAsserts < Neo::Koan
   # reality.
   def test_assert_equality
     actual_value = 0
-    expected_value = 1 + 1
+    expected_value = 2
     actual_value = 1 + 1
 
     assert expected_value == actual_value
